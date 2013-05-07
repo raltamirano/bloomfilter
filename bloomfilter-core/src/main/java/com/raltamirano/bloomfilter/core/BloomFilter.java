@@ -29,7 +29,7 @@ public final class BloomFilter {
 	 * Creates a Bloom filters with a user-provided set of hash functions
 	 * @param length In Bloom filters theory, the "m" parameter.
 	 * @param hashFunctions The hash functions used to compute indexes for this filter. 
-	 * The size of this arrays corresponds to the "k" parameter in Bloom filters theory.
+	 * The size of this array corresponds to the "k" parameter in Bloom filters theory.
 	 */
 	public BloomFilter(int length, HashFunction[] hashFunctions) {
 
